@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    margin: auto;
+    height: 100vh;
+}
+
+#left-side {
+    background-color: rgb(57, 204, 84);
+    flex: auto;
+}
+
+#right-side {
+    background-color: rgb(214, 214, 214);
+    flex: auto;
+    width: 20vw;
+}
