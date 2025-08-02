@@ -5,12 +5,19 @@ body {
 }
 
 #left-side {
-    background-color: rgb(57, 204, 84);
+    background-image: url('/assets/blossoms.jpg');
+    background-size: 700px;
     flex: auto;
 }
 
 #right-side {
-    background-color: rgb(214, 214, 214);
+    background-color: rgb(255, 255, 255);
     flex: auto;
-    width: 20vw;
+    width: 30vw;
+}
+
+#banner {
+    background-color: rgba(0, 0, 0, 0.616);
+    margin-top: 20vh;
+    height: 10rem;
 }
