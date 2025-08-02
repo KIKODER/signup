@@ -1,12 +1,26 @@
+:root {
+    --ocolor: rgb(46, 85, 101);
+}
+
 body {
     display: flex;
     margin: auto;
     height: 100vh;
 }
 
+button {
+    background-color: var(--ocolor);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 0.5rem 2.5rem;
+}
+
 #left-side {
-    background-image: url('/assets/blossoms.jpg');
-    background-size: 700px;
+    background-image: url('/assets/forest.jpg');
+    background-size: 1300px;
     flex: auto;
     color: white;
 }
@@ -26,4 +40,8 @@ body {
 
 #section1, #section3 {
     background-color: rgb(247, 247, 247);
+}
+
+.section {
+    border: 1px solid black;
 }
