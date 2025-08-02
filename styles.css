@@ -18,6 +18,10 @@ button {
     padding: 0.5rem 2.5rem;
 }
 
+h5 span {
+    color: var(--ocolor);
+}
+
 #left-side {
     background-image: url('/assets/forest.jpg');
     background-size: 1300px;
@@ -36,6 +40,10 @@ button {
     display: flex;
     margin-top: 20vh;
     height: 10rem;
+}
+
+#logo img {
+    width: 100px;
 }
 
 #section1, #section3 {
