@@ -1,5 +1,10 @@
 :root {
-    --ocolor: rgb(46, 85, 101);
+    --theme: rgb(46, 85, 101);
+}
+
+@font-face {
+    font-family: "Odin";
+    src: url(/fonts/Norse-Bold.otf);
 }
 
 body {
@@ -9,7 +14,7 @@ body {
 }
 
 button {
-    background-color: var(--ocolor);
+    background-color: var(--theme);
     color: white;
     font-weight: bold;
     border: none;
@@ -19,7 +24,7 @@ button {
 }
 
 h5 span {
-    color: var(--ocolor);
+    color: var(--theme);
 }
 
 #left-side {
@@ -32,7 +37,7 @@ h5 span {
 #right-side {
     background-color: rgb(255, 255, 255);
     flex: auto;
-    width: 30vw;
+    width: 50vw;
 }
 
 #banner {
@@ -40,10 +45,22 @@ h5 span {
     display: flex;
     margin-top: 20vh;
     height: 10rem;
+    align-items: center;
 }
 
 #logo img {
     width: 100px;
+}
+
+#title {
+    font-family: 'Odin';
+    font-size: 6rem;
+}
+
+#credit {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 1rem;
 }
 
 #section1, #section3 {
