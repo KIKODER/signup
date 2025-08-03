@@ -21,6 +21,7 @@ button {
     border-radius: 5px;
     font-size: 1rem;
     padding: 0.5rem 2.5rem;
+    box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.274);
 }
 
 h5 span {
@@ -74,12 +75,19 @@ h5 span {
 
 #section1, #section3 {
     background-color: rgb(247, 247, 247);
+    padding-left: 2rem;
+}
+
+#section2 {
+    padding-left: 1rem;
+}
+
+#section3 {
+    padding-top: 1rem;
 }
 
 .section {
     box-sizing: border-box;
-    border: 1px solid black;
     width: 100%;
     flex-grow: 1;
-    padding-left: 2rem;
 }
