@@ -5,12 +5,12 @@
 }
 
 @font-face {
-    font-family: "Odin";
-    src: url(/fonts/Norse-Bold.otf);
+    font-family: "Bebas";
+    src: url(/fonts/BebasNeue-Regular.otf);
 }
 
 * {
-    font-family:Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -83,8 +83,8 @@ input:focus {
 }
 
 #left-side {
-    background-image: url('/assets/forest.jpg');
-    background-size: 1300px;
+    background-image: url('/assets/skyline-dystopian-future.jpg');
+    background-size: 1000px;
     display: flex;
     flex-direction: column;
     flex: auto;
@@ -107,14 +107,15 @@ input:focus {
     margin-top: 20vh;
     height: 10rem;
     align-items: center;
+    gap: 0.5rem;
 }
 
 #logo img {
-    width: 100px;
+    width: 140px;
 }
 
 #title {
-    font-family: 'Odin';
+    font-family: 'Bebas', Arial, Helvetica, sans-serif;
     font-size: 6rem;
 }
 
