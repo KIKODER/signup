@@ -28,6 +28,33 @@ h5 span {
     color: var(--theme);
 }
 
+fieldset {
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+input {
+    width: 12rem;
+}
+
+.input-row {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.input-row > div {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 0.8rem;
+}
+
 #left-side {
     background-image: url('/assets/forest.jpg');
     background-size: 1300px;
@@ -78,16 +105,22 @@ h5 span {
     padding-left: 2rem;
 }
 
+#section1 {
+    padding-top: 4rem;
+}
+
 #section2 {
     padding-left: 1rem;
+    margin-bottom: -5rem;
 }
 
 #section3 {
-    padding-top: 1rem;
+    padding-top: 3rem;
 }
 
 .section {
     box-sizing: border-box;
     width: 100%;
     flex-grow: 1;
+    padding-right: 1rem;
 }
